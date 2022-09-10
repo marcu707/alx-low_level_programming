@@ -1,14 +1,13 @@
 #!/bin/bash
-
 #include <stdio.h>
 
 /**
- * main - entry point
- * Description: print a string using followed by a new line
- * Return: 0
- */
+  * main - Entry point
+  *
+  *Return: Always 0 (success)
+  */
 int main(void)
 {
-	puts("\"programming is like building a multilingual puzzle");
+	puts("\"programming is like building amultilingual puzzle");
 	return (0);
 }

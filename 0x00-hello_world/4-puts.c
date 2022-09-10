@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
@@ -8,6 +7,7 @@
   */
 int main(void)
 {
-	puts("\"programming is like building amultilingual puzzle");
+	puts("\ "programming is like building amultilingual puzzle");
+
 	return (0);
 }

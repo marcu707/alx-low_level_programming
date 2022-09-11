@@ -1,9 +1,9 @@
 #include <stdio.h>
 
  /**
-  * main-Entry point
-  Description: print a string using followed by a new line
-  *Return: Always 0 (success)
+  * main - Entry point
+  *
+  * Return: Always 0 (success)
   */
 int main(void)
 {

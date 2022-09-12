@@ -12,7 +12,7 @@ int d = 48;
 while (d < 58)
 {
 putchar(d);
-if (d != 58)
+if (d != 57)
 {
 putchar(',');
 putchar(' ');

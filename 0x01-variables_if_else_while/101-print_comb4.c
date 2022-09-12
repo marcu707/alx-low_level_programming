@@ -13,7 +13,7 @@ while (d < 58)
 {
 a = 48;
 
-while (d < 58)
+while (a < 58)
 {
 i = 48;
 

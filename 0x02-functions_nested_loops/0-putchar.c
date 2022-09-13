@@ -1,10 +1,9 @@
-#include <stdio.h>
-
+#include "main.h"
 
 /**
-* main - - prints the world_putchar
+* main - prints the world _putchar
 *
-* Return: 0 Always (success)
+* Return: 0 on success execution
 */
 int main(void)
 {
@@ -13,9 +12,9 @@ int i = 0;
 
 while (s[i] != '\0')
 {
-putchar(s[i]);
+_putchar(s[i]);
 i++;
 }
-putchar(10);
+_putchar(10);
 return (0);
 }

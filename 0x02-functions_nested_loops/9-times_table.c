@@ -31,6 +31,10 @@ _putchar(z + '0');
 }
 else
 {
+_putchar(z + '0');
+}
+if (y != 9)
+{
 _putchar(',');
 _putchar(' ');
 }

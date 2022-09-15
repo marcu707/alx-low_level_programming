@@ -7,8 +7,16 @@
 */
 int _isupper(int c)
 {
-if (c >= 65 && c <= 91)
-return (1);
-else
-return (0);
+char uppercase = 'A';
+int isupper = 0;
+for (; uppercase <= 'Z'; uppercase++)
+{
+
+if (c == uppercase)
+{
+isupper = 1;
+break;
+}
+}
+return (isupper);
 }
